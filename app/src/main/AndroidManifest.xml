@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.so.debelzaak.evolution.blackxtenium" >
+
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/micoo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+		android:resizeableActivity = "true">
+        <activity
+            android:name=".Splash_screen"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name=".MainScreen"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"/>
+		<activity
+            android:name=".MainPreview"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"/>
+		<activity
+            android:name=".MainSplash"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"/>
+		<activity
+            android:name=".MainActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

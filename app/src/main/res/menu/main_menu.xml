@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item
+		android:title="Salvar"
+		android:id="@+id/item1">
+		</item>
+	
+	<item
+		android:title="Preview"
+		android:id="@+id/item2">
+		</item>
+		
+	<item
+		android:title="Renomear"
+		android:id="@+id/item3">
+	</item>
+	
+	<item
+		android:title="Informação"
+		android:id="@+id/item4">
+	</item>
+
+	<item
+		android:title="Privacidade"
+		android:id="@+id/item5">
+	</item>
+	
+	<item
+		android:title="Compartilhar"
+		android:id="@+id/part1">
+	</item>
+	
+</menu>

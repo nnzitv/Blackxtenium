@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.+"
+
+    defaultConfig {
+        applicationId "com.so.debelzaak.evolution.blackxtenium"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 4
+        versionName "1.4"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+	compile 'com.android.support:appcompat-v7:27.+'
+	compile ('android.arch.core:runtime:+') {
+       force = true
+       } 
+
+	compile 'com.android.support:support-annotations:27.+'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

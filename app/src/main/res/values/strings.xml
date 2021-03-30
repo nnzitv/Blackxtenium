@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlackXtenium</string>
+    <string name="hello_world">Hipóteses</string>
+	<string name="obser">Foi observado</string>
+	<string name="result">Experimentos</string>
+	<string name="conresult">Interpretação</string>
+	<string name="concl">Conclusão</string>
+	
+</resources>
